@@ -64,8 +64,6 @@ grep -v nologin /etc/passwd | sort -t":" -k7 < lista_ordenada
 git add .
 git commit -m "ADD: Listado de usuarios ordenada"
 git push
-man
-man net
 tcdump
 apropos dump traffic
 echo tcpdump > comando_dump_net
